@@ -1,0 +1,34 @@
+/* 
+ * CONFIG
+ ***************************************** */
+@import "config/variable";
+@import "config/mixin";
+
+
+/* 
+ * HELPER
+ ***************************************** */
+@import "helper/normalize";
+@import "helper/formalize";
+@import "helper/global";
+
+
+/* 
+ * PLUGIN
+ ***************************************** */
+@import "plugin/bootstrap-grid";
+
+/* 
+ * GLOBAL
+ ***************************************** */
+@import "global/nav";
+@import "global/header";
+@import "global/animation";
+@import "global/form";
+@import "global/footer";
+
+
+/* 
+ * COMPONENT
+ ***************************************** */
+@import "component/home/ornek";
