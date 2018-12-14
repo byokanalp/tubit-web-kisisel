@@ -78,7 +78,7 @@ gulp.task('scripts', () => {
  *******************************************************************************/  
 gulp.task('browser-sync', function () {
 	browserSync.init({
-		browser: 'opera',
+		// browser: 'opera',
 		notify: false,
 		server: {
 			baseDir: PATH.dest.root
