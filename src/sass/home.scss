@@ -1,9 +1,34 @@
-.box {
-  background-color: #aa4646;
-  padding: 10px;
-  margin: 10px;
-}
+/* 
+ * CONFIG
+ ***************************************** */
+@import "config/variable";
+@import "config/mixin";
 
-#km {
 
-}
+/* 
+ * HELPER
+ ***************************************** */
+@import "helper/normalize";
+@import "helper/formalize";
+@import "helper/global";
+
+
+/* 
+ * PLUGIN
+ ***************************************** */
+@import "plugin/bootstrap-grid";
+
+/* 
+ * GLOBAL
+ ***************************************** */
+@import "global/nav";
+@import "global/header";
+@import "global/animation";
+@import "global/form";
+@import "global/footer";
+
+
+/* 
+ * COMPONENT
+ ***************************************** */
+@import "component/home/ornek";
